@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 680" width="100%" height="100%" style="background:#F6F4EF; font-family: sans-serif;">
+  <defs>
+    <pattern id="grid3" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E2DFD7" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="950" height="680" fill="#F6F4EF"/>
+  <rect width="950" height="680" fill="url(#grid3)" opacity="0.6"/>
+
+  <!-- Outer Walls -->
+  <rect x="80" y="60" width="790" height="520" fill="#FFFFFF" stroke="#182D32" stroke-width="4" rx="4"/>
+
+  <!-- Private Foyer -->
+  <rect x="80" y="240" width="100" height="120" fill="#C5A572" stroke="#182D32" stroke-width="2"/>
+  <text x="130" y="295" fill="#182D32" font-size="13" font-weight="bold" text-anchor="middle">PRIVATE FOYER</text>
+  <text x="130" y="315" fill="#182D32" font-size="11" text-anchor="middle">7' 0" × 8' 6"</text>
+
+  <!-- Grand Living & Dining -->
+  <rect x="180" y="160" width="400" height="280" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="380" y="280" fill="#182D32" font-size="20" font-weight="bold" text-anchor="middle">EXPANSIVE LIVING &amp; DINING</text>
+  <text x="380" y="310" fill="#C5A572" font-size="15" font-weight="600" text-anchor="middle">26' 0" × 16' 6"</text>
+  <text x="380" y="335" fill="#586365" font-size="12" text-anchor="middle">Double-Height Ceiling · Italian Botticino Marble</text>
+
+  <!-- Grand Sky Terrace / Deck -->
+  <rect x="180" y="60" width="400" height="100" fill="#E4EAE4" stroke="#182D32" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="380" y="110" fill="#182D32" font-size="15" font-weight="bold" text-anchor="middle">PANORAMIC SKY TERRACE</text>
+  <text x="380" y="135" fill="#586365" font-size="13" text-anchor="middle">24' 0" × 7' 0" · Planter Boxes &amp; Glass Balustrades</text>
+
+  <!-- Chef Modular Kitchen & Maid Room -->
+  <rect x="180" y="440" width="230" height="140" fill="#FAFAF8" stroke="#182D32" stroke-width="2"/>
+  <text x="295" y="500" fill="#182D32" font-size="15" font-weight="bold" text-anchor="middle">CHEF KITCHEN</text>
+  <text x="295" y="525" fill="#C5A572" font-size="13" font-weight="600" text-anchor="middle">13' 6" × 10' 0"</text>
+
+  <rect x="410" y="440" width="170" height="140" fill="#ECEFEA" stroke="#182D32" stroke-width="2"/>
+  <text x="495" y="495" fill="#182D32" font-size="13" font-weight="bold" text-anchor="middle">MAID'S SUITE</text>
+  <text x="495" y="515" fill="#586365" font-size="11" text-anchor="middle">With Attached Bath</text>
+  <text x="495" y="535" fill="#586365" font-size="11" text-anchor="middle">&amp; Service Entry</text>
+
+  <!-- Master Suite with Walk-In Closet -->
+  <rect x="580" y="60" width="290" height="260" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="725" y="160" fill="#182D32" font-size="17" font-weight="bold" text-anchor="middle">MASTER SUITE</text>
+  <text x="725" y="185" fill="#C5A572" font-size="14" font-weight="600" text-anchor="middle">17' 0" × 14' 0"</text>
+  <text x="725" y="210" fill="#586365" font-size="12" text-anchor="middle">Walk-in Closet &amp; 5-Fixture Bath</text>
+
+  <!-- Master Bath -->
+  <rect x="740" y="220" width="130" height="100" fill="#E2E9E3" stroke="#182D32" stroke-width="2"/>
+  <text x="805" y="270" fill="#182D32" font-size="12" font-weight="bold" text-anchor="middle">M. BATH</text>
+  <text x="805" y="290" fill="#586365" font-size="11" text-anchor="middle">9' 6" × 6' 0"</text>
+
+  <!-- Bedroom 02 (Kids Suite) -->
+  <rect x="580" y="320" width="160" height="260" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="660" y="430" fill="#182D32" font-size="15" font-weight="bold" text-anchor="middle">BEDROOM 02</text>
+  <text x="660" y="455" fill="#C5A572" font-size="13" font-weight="600" text-anchor="middle">14' 0" × 12' 0"</text>
+  <text x="660" y="480" fill="#586365" font-size="11" text-anchor="middle">Attached Bath</text>
+
+  <!-- Bedroom 03 (Guest Suite) -->
+  <rect x="740" y="320" width="130" height="260" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="805" y="430" fill="#182D32" font-size="14" font-weight="bold" text-anchor="middle">BEDROOM 03</text>
+  <text x="805" y="455" fill="#C5A572" font-size="12" font-weight="600" text-anchor="middle">13' 0" × 11' 0"</text>
+  <text x="805" y="480" fill="#586365" font-size="11" text-anchor="middle">Attached Bath</text>
+
+  <!-- Bottom Title Bar -->
+  <rect x="80" y="600" width="790" height="44" rx="4" fill="#182D32"/>
+  <text x="100" y="628" fill="#C5A572" font-size="14" font-weight="bold">3 BHK SIGNATURE SUITE</text>
+  <text x="320" y="628" fill="#F6F4EF" font-size="12">CARPET: 1,420 SQ. FT. · SUPER AREA: 1,980 SQ. FT. · 3-SIDE OPEN · NORTH-EAST FACING</text>
+</svg>

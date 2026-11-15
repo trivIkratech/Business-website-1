@@ -1,0 +1,232 @@
+/* ==========================================================================
+   THE VERDANT ESTATE — RESPONSIVE STYLESHEET
+   Handles clean layout adaptations across all viewport widths.
+   ========================================================================== */
+
+/* Large Desktops / Laptops (1200px and down) */
+@media (max-width: 1200px) {
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Medium Tablets & Small Desktops (992px and down) */
+@media (max-width: 991.98px) {
+  :root {
+    --header-height: 72px;
+  }
+
+  .header-bottom-bar {
+    border-bottom: none;
+    background: transparent;
+  }
+
+  .header-bottom-bar .navbar {
+    min-height: 0;
+  }
+
+  .header-bottom-bar .navbar-collapse {
+    background: var(--color-white);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-border);
+    border-top: none;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .header-bottom-bar .nav-link {
+    padding: 0.75rem 0.5rem !important;
+    border-bottom: 1px solid var(--color-border-subtle);
+    font-size: 0.875rem;
+  }
+
+  .header-bottom-bar .nav-link::after {
+    display: none;
+  }
+
+  .header-enquire-btn {
+    padding: 0.55rem 1.1rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding-top: calc(var(--header-height) + 50px);
+    padding-bottom: 90px;
+  }
+
+  .hero-heading {
+    font-size: 2.8rem;
+  }
+
+  .overview-imagery-wrapper {
+    padding-bottom: 40px;
+    padding-right: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .overview-main-image {
+    height: 380px;
+  }
+
+  .overview-inset-image-card {
+    height: 200px;
+    width: 55%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .developer-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .location-category-tabs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .location-map-container {
+    min-height: 420px;
+    margin-top: 2rem;
+  }
+}
+
+/* Small Tablets & Mobile Devices (768px and down) */
+@media (max-width: 767.98px) {
+  body {
+    padding-bottom: 60px; /* Space for mobile bottom sticky bar */
+  }
+
+  .mobile-bottom-action-bar {
+    display: flex;
+  }
+
+  .floating-actions {
+    bottom: 80px;
+    right: 18px;
+  }
+
+  .fab-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.15rem;
+  }
+
+  .hero-price-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-cta-group .btn-gold,
+  .hero-cta-group .btn-outline-white {
+    width: 100%;
+  }
+
+  .overview-specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .amenities-bottom-cta-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 1.25rem;
+  }
+
+  .amenities-banner-content {
+    max-width: 100%;
+  }
+
+  .amenities-banner-action,
+  .amenities-banner-action .btn-primary-dark {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .location-category-tabs {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+  }
+
+  .location-tab-btn {
+    flex-shrink: 0;
+  }
+
+  .developer-card {
+    padding: 1.75rem;
+  }
+
+  .plan-display-stage {
+    padding: 1.25rem;
+  }
+
+  .plan-image-frame {
+    min-height: 280px;
+    padding: 0.75rem;
+  }
+
+  .lightbox-btn {
+    width: 38px;
+    height: 38px;
+    font-size: 1.1rem;
+  }
+
+  .lightbox-prev {
+    left: 10px;
+  }
+
+  .lightbox-next {
+    right: 10px;
+  }
+
+  .lightbox-close {
+    top: 15px;
+    right: 15px;
+  }
+}
+
+/* Small Phones (576px and down) */
+@media (max-width: 575.98px) {
+  .hero-heading {
+    font-size: 2.3rem;
+  }
+
+  .overview-main-image {
+    height: 280px;
+  }
+
+  .overview-inset-image-card {
+    display: none; /* Hide inset on tiny screens to avoid messy overlaps */
+  }
+
+  .overview-badge-stamp {
+    top: -10px;
+    left: -10px;
+    padding: 0.6rem 0.85rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .developer-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .residence-actions-group {
+    grid-template-columns: 1fr;
+  }
+}
+

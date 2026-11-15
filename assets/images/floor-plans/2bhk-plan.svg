@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="100%" height="100%" style="background:#F6F4EF; font-family: sans-serif;">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E2DFD7" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="650" fill="#F6F4EF"/>
+  <rect width="900" height="650" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Outer Walls -->
+  <rect x="100" y="80" width="700" height="480" fill="#FFFFFF" stroke="#182D32" stroke-width="4" rx="4"/>
+
+  <!-- Living & Dining Room -->
+  <rect x="100" y="160" width="360" height="260" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="280" y="270" fill="#182D32" font-size="18" font-weight="bold" text-anchor="middle">LIVING &amp; DINING</text>
+  <text x="280" y="295" fill="#C5A572" font-size="14" font-weight="600" text-anchor="middle">21' 6" × 13' 0"</text>
+  <text x="280" y="320" fill="#586365" font-size="12" text-anchor="middle">Imported Italian Marble</text>
+
+  <!-- Living Deck / Balcony -->
+  <rect x="100" y="80" width="360" height="80" fill="#E4EAE4" stroke="#182D32" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="280" y="125" fill="#182D32" font-size="14" font-weight="bold" text-anchor="middle">SUNLIT LIVING DECK</text>
+  <text x="280" y="145" fill="#586365" font-size="12" text-anchor="middle">13' 0" × 5' 6" · Anti-skid Teak Finish</text>
+
+  <!-- Kitchen & Utility -->
+  <rect x="100" y="420" width="220" height="140" fill="#FAFAF8" stroke="#182D32" stroke-width="2"/>
+  <text x="210" y="480" fill="#182D32" font-size="15" font-weight="bold" text-anchor="middle">KITCHEN</text>
+  <text x="210" y="505" fill="#C5A572" font-size="13" font-weight="600" text-anchor="middle">10' 0" × 8' 6"</text>
+
+  <rect x="320" y="420" width="140" height="140" fill="#ECEFEA" stroke="#182D32" stroke-width="2"/>
+  <text x="390" y="480" fill="#182D32" font-size="13" font-weight="bold" text-anchor="middle">UTILITY</text>
+  <text x="390" y="505" fill="#586365" font-size="12" text-anchor="middle">6' 0" × 8' 6"</text>
+
+  <!-- Master Bedroom Suite -->
+  <rect x="460" y="80" width="340" height="250" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="630" y="180" fill="#182D32" font-size="17" font-weight="bold" text-anchor="middle">MASTER BEDROOM</text>
+  <text x="630" y="205" fill="#C5A572" font-size="14" font-weight="600" text-anchor="middle">15' 0" × 12' 0"</text>
+  <text x="630" y="230" fill="#586365" font-size="12" text-anchor="middle">Laminated Wooden Flooring</text>
+
+  <!-- Master Bath -->
+  <rect x="650" y="250" width="150" height="80" fill="#E2E9E3" stroke="#182D32" stroke-width="2"/>
+  <text x="725" y="295" fill="#182D32" font-size="12" font-weight="bold" text-anchor="middle">M. BATH 8'×5'</text>
+
+  <!-- Bedroom 02 -->
+  <rect x="460" y="330" width="220" height="230" fill="#F6F4EF" stroke="#182D32" stroke-width="2"/>
+  <text x="570" y="430" fill="#182D32" font-size="16" font-weight="bold" text-anchor="middle">BEDROOM 02</text>
+  <text x="570" y="455" fill="#C5A572" font-size="13" font-weight="600" text-anchor="middle">13' 0" × 11' 0"</text>
+
+  <!-- Common Bath -->
+  <rect x="680" y="330" width="120" height="130" fill="#E2E9E3" stroke="#182D32" stroke-width="2"/>
+  <text x="740" y="395" fill="#182D32" font-size="12" font-weight="bold" text-anchor="middle">BATH 02</text>
+  <text x="740" y="415" fill="#586365" font-size="11" text-anchor="middle">7' 6" × 5' 0"</text>
+
+  <!-- Balcony 02 -->
+  <rect x="680" y="460" width="120" height="100" fill="#E4EAE4" stroke="#182D32" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="740" y="510" fill="#182D32" font-size="12" font-weight="bold" text-anchor="middle">DECK 02</text>
+  <text x="740" y="530" fill="#586365" font-size="11" text-anchor="middle">6' 0" × 4' 6"</text>
+
+  <!-- Entry Foyer -->
+  <rect x="100" y="300" width="60" height="60" fill="#C5A572"/>
+  <text x="130" y="335" fill="#182D32" font-size="11" font-weight="bold" text-anchor="middle">ENTRY</text>
+
+  <!-- Bottom Title Bar -->
+  <rect x="100" y="580" width="700" height="40" rx="4" fill="#182D32"/>
+  <text x="120" y="605" fill="#C5A572" font-size="13" font-weight="bold">2 BHK LUXURY RESIDENCE</text>
+  <text x="320" y="605" fill="#F6F4EF" font-size="12">CARPET: 920 SQ. FT. · SUPER AREA: 1,350 SQ. FT. · EAST FACING</text>
+</svg>
