@@ -13,9 +13,9 @@ const PROJECT_DATA = {
     fullAddress: "Hope Farm Junction, Whitefield Main Road, Bengaluru, Karnataka 560066",
     reraNumber: "PRM/KA/RERA/1251/446/PR/220324/004812",
     contact: {
-      phoneDisplay: "+91 98450 12345",
-      phoneRaw: "+919845012345",
-      whatsappRaw: "919845012345",
+      phoneDisplay: "+91 1234567890",
+      phoneRaw: "+911234567890",
+      whatsappRaw: "911234567890",
       email: "sales@theverdantestate.in",
       officeHours: "Daily 9:30 AM – 6:30 PM IST"
     },

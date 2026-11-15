@@ -47,10 +47,10 @@ function initEnquiryForm() {
       return;
     }
 
-    // Indian 10-digit mobile number format
-    const phoneRegex = /^[6-9]\d{9}$/;
+    // 10-digit mobile number format
+    const phoneRegex = /^[1-9]\d{9}$/;
     if (!phone || !phoneRegex.test(phone)) {
-      showError("Please enter a valid 10-digit Indian mobile number (starting with 6, 7, 8, or 9).");
+      showError("Please enter a valid 10-digit mobile number.");
       phoneInput?.focus();
       return;
     }
